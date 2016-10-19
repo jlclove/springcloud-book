@@ -1,0 +1,26 @@
+{
+	"title": "微服务实战（上海链家）",
+	"variables": {
+	    "imagePath": "../..",
+		"lorikSpiViewVersion": "2.1.2-SNAPSHOT",
+		"lorikCoreVersion": "1.1.1-SNAPSHOT",
+		"lorikApidocletVersion": "1.0.0"
+	},
+	"styles": {
+        "website": "styles/maxiang.css"
+    },
+	"plugins": ["atoc","tbfed-pagefooter"],
+    "pluginsConfig": {
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
+        "tbfed-pagefooter": {
+		  "copyright":"&copy RD@上海链家 ",
+		  "modify_label": "文件修订时间：",
+		  "modify_format": "YYYY-MM-DD HH:mm"
+		},
+		"expandable-chapters":{}
+    }
+	
+}
