@@ -17,7 +17,7 @@
 * pom.xml如下：
 
 
-```html
+```xml
  <dependencies>
         <dependency>
 		<groupId>com.lianjia.sh</groupId>
