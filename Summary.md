@@ -33,7 +33,7 @@ bui \#Summary
   * [登录迁移指南](parts/chapter3/login-migration.md)
 
 * [分布式任务组件](parts/chapter4/README.md)
- * [Spring Java Config](parts/chapter3/java-config.md)
+
 
 
 
