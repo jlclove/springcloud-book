@@ -54,4 +54,6 @@
     * 简陋版 `http://10.22.15.2:19900/triggers`
 ![简陋版 任务查看](/parts/chapter4/images/triggers page.png)
 
+4. 完毕！！
+
 
