@@ -44,13 +44,15 @@
 
     ```xml
     <bean class="com.lianjia.sh.se.tools.quartz.toc.config.EnvironmentConfiguration"> 
+        <!--当前启动环境，支持 development、test(与development统一管理)、integration、production-->
         <property name="env" value="development"></property> 
+        <!--系统名，对应quartz的schema-->
         <property name="applicationName" value="QuartzTest"></property> 
     </bean>
     ```
 3. 任务查看
 
-    * [简陋版](http://10.22.15.2:19900/triggers "简陋版")
+    * [简陋版](http://10.22.15.2:19900/triggers "简陋版")，可在此处查看所有被托管任务的运行状况运行历史等，目前不提供变更操作。
 
 ![简陋版 任务查看](/parts/chapter4/images/triggers page.png)
 4. 完毕！！
